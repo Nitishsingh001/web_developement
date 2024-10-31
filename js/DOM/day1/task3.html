@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select Tags</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+   
+   <select name="" id="gender">
+    <option value="None">Choose any one</option>
+    <option value="Male"> Male </option>
+    <option value="Female">Female</option>
+
+   </select>
+        
+   <button onclick="myFun()" > <h3>click me </h3></button>
+   <h1 id="nam"></h1>
+</body>
+</html>
+
+<script>
+
+
+function myFun(){
+    let pr = document.getElementById("gender").value; 
+     document.getElementById("nam").innerText = pr; 
+}
+
+
+</script>

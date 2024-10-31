@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Operation</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+  
+    
+    <input id="name" type="text" >
+    <button onclick="myFun()"> <h1>submit</h1></button>
+
+ <h1 id="first"></h1>
+
+
+
+</body>
+</html>
+
+<script>
+    function myFun(){
+        let pr = document.getElementById("name").value; 
+        document.getElementById("first").innerHTML = pr; 
+    }
+
+</script>
