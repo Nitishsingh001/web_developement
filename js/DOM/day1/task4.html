@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class operation in javascript</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    
+
+    <h1 class="csk">I am Dhoni</h1>
+    <h1 class="csk">I am Raina</h1>
+    <h1 class="csk">I am Jadeja</h1>
+    <h1 class="csk">I am Bravo</h1>
+    <h1 class="csk">I am Rituraj</h1>
+
+<h1 id="name"></h1>
+
+
+</body>
+</html>
+
+<script>
+   let pr = document.getElementsByClassName("csk"); 
+   document.getElementById("name").innerText =  pr[0].innerText; 
+
+ for (i =0; i<pr.length; i++){
+    console.log(pr[i])
+ }
+</script>
